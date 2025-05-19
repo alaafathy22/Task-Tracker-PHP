@@ -1,0 +1,13 @@
+{
+    "name": "task-tracker/cli",
+    "description": "A SOLID-based task tracker CLI application",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "TaskTracker\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
